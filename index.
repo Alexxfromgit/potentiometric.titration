@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Potentiometric Titration</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <header class="header">
+    <div class="logo">Potentiometric Titration</div>
+    <nav class="nav">
+      <a href="#">Home</a>
+      <a href="#">Features</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+
+  <main class="hero">
+    <h1>The free app that makes your titration easier.</h1>
+    <h2>Now available for even more devices.</h2>
+
+    <div class="buttons-row">
+      <a href="#" class="button">
+        <i class="fab fa-apple"></i> App Store
+      </a>
+      <a href="#" class="button">
+        <i class="fab fa-google-play"></i> Google Play
+      </a>
+    </div>
+
+    <div class="buttons-row">
+      <a href="#" class="button">
+        <i class="fab fa-apple"></i> macOS
+      </a>
+      <a href="#" class="button">
+        <i class="fab fa-windows"></i> Windows
+      </a>
+      <a href="#" class="button">
+        <i class="fab fa-linux"></i> Linux
+      </a>
+    </div>
+
+    <div class="links-row">
+      <a href="#">macOS Installation Instructions</a>
+      <a href="#">Windows Installation Instructions</a>
+      <a href="#">Linux Installation Instructions</a>
+    </div>
+  </main>
+</body>
+</html>
