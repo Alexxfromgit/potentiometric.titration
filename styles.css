@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  background: #ffffff;
+  color: #202060;
+  text-align: center;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1em 2em;
+  align-items: center;
+}
+
+.header .logo {
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.nav a {
+  margin-left: 1.5em;
+  text-decoration: none;
+  color: #202060;
+  font-weight: 500;
+}
+
+.hero {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 3em 1em;
+}
+
+.hero h1 {
+  font-size: 2em;
+  margin-bottom: 0.5em;
+}
+
+.hero h2 {
+  font-size: 1.2em;
+  color: #404080;
+  margin-bottom: 2em;
+}
+
+.buttons-row {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1em;
+  margin-bottom: 1em;
+}
+
+.button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5em;
+  background: #202060;
+  color: white;
+  padding: 0.75em 1.5em;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background 0.3s;
+}
+
+.button:hover {
+  background: #404080;
+}
+
+.links-row {
+  margin-top: 1em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5em;
+}
+
+.links-row a {
+  font-size: 0.9em;
+  color: #202060;
+  text-decoration: underline;
+}
